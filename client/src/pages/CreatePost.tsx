@@ -93,10 +93,10 @@ const CreatePost = () => {
       <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
         <div className="flex flex-col gap-5">
           <FormField
-            labelName="Your Name"
+            labelName="Name it"
             type="text"
             name="name"
-            placeholder="Ex., john doe"
+            placeholder="Ex., My ultimate masterpiece"
             value={form.name}
             handleChange={handleChange}
           />
@@ -148,13 +148,13 @@ const CreatePost = () => {
         <div className="mt-10">
           <p className="mt-2 text-gray-600 text-sm">
             ** Once you have created the image you want, you can share it with
-            others in the community **
+            others **
           </p>
           <button
             type="submit"
             className="mt-3 text-white bg-indigo-500 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
           >
-            {loading ? "Sharing..." : "Share with the Community"}
+            {loading ? "Sharing..." : "Share it"}
           </button>
         </div>
       </form>
