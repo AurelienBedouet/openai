@@ -84,7 +84,7 @@ const Home = () => {
     <section className="max-w-7xl mx-auto sm:p-8 px-4 py-8">
       <div>
         <h1 className="font-extrabold text-gray-900 text-3xl">
-          The Community Showcase
+          My AI generated images
         </h1>
         <p className="mt-2 text-gray-600 text-sm max-w-[500px]">
           Browse through a collection of imaginative and visually stunning
@@ -112,7 +112,7 @@ const Home = () => {
           <>
             {searchText && (
               <h2 className="font-medium text-gray-600 text-xl mb-3">
-                Showing Resuls for{" "}
+                Showing Results for{" "}
                 <span className="text-gray-900">{searchText}</span>:
               </h2>
             )}

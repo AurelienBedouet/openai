@@ -21,10 +21,10 @@ const App = () => {
             Chat
           </Link>
           <Link
-            to="/image"
+            to="/create-post"
             className="font-inter font-medium bg-violet-500 text-white px-4 py-2 rounded-md"
           >
-            Generate Image
+            Create Post
           </Link>
         </div>
       </header>
@@ -33,7 +33,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/chat" element={<Chat />} />
-          <Route path="/image" element={<CreatePost />} />
+          <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
     </BrowserRouter>

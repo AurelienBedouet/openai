@@ -85,8 +85,8 @@ const CreatePost = () => {
       <div>
         <h1 className="font-extrabold text-gray-900 text-3xl">Create</h1>
         <p className="mt-2 text-gray-600 text-sm max-w-[500px]">
-          Generate an imaginative image through DALL-E AI and share it with the
-          community
+          Generate an imaginative image through DALL-E AI and share it on the
+          homepage
         </p>
       </div>
 
